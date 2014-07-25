@@ -20,14 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func objectAdded(theButton: UIButton) {
-        if theButton.titleLabel.text == "Dog"{
-        
-        }else if theButton.titleLabel.text == "Cat"{
-        
-        }else if theButton.titleLabel.text == "Mouse"{
-        
-        }
+    @IBAction func objectAdded(theButton: UIButton!) {
+    var frame = CGRectMake(100, 100, 44, 44)
+    var newView = ObjectView(frame: frame)
+    newView.userInteractionEnabled = true
+    newView.image = UIImage(named: theButton.titleLabel.text)
+    newView.contentMode = .ScaleAspectFit
+        self.view.addSubview(newView)
     }
 }
 
