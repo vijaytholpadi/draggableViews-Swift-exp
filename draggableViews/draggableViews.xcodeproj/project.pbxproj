@@ -22,6 +22,13 @@
 			remoteGlobalIDString = D2E41A9D198185860051F413;
 			remoteInfo = draggableViews;
 		};
+		D2E41AC01982C3EC0051F413 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D2E41A96198185860051F413 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2E41A9D198185860051F413;
+			remoteInfo = draggableViews;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -141,6 +148,7 @@
 			);
 			dependencies = (
 				D2E41AB2198185860051F413 /* PBXTargetDependency */,
+				D2E41AC11982C3EC0051F413 /* PBXTargetDependency */,
 			);
 			name = draggableViewsTests;
 			productName = draggableViewsTests;
@@ -228,6 +236,11 @@
 			isa = PBXTargetDependency;
 			target = D2E41A9D198185860051F413 /* draggableViews */;
 			targetProxy = D2E41AB1198185860051F413 /* PBXContainerItemProxy */;
+		};
+		D2E41AC11982C3EC0051F413 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2E41A9D198185860051F413 /* draggableViews */;
+			targetProxy = D2E41AC01982C3EC0051F413 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

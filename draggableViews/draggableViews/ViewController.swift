@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-
+    @IBAction func objectAdded(theButton: UIButton) {
+        if theButton.titleLabel.text == "Dog"{
+        
+        }else if theButton.titleLabel.text == "Cat"{
+        
+        }else if theButton.titleLabel.text == "Mouse"{
+        
+        }
+    }
 }
 
